@@ -8,14 +8,14 @@ declare interface RouteInfo {
 }
 export const ROUTES: RouteInfo[] = [
     { path: '/dashboard', title: 'Dashboard',  icon: 'design_app', class: '' },
-    { path: '/icons', title: 'Icons',  icon:'education_atom', class: '' },
+   // { path: '/icons', title: 'Icons',  icon:'education_atom', class: '' },
     { path: '/entries', title: 'Entries',  icon:'location_map-big', class: '' },
     { path: '/reports', title: 'Reports',  icon:'files_paper', class: '' },
-    { path: '/notifications', title: 'Notifications',  icon:'ui-1_bell-53', class: '' },
+   // { path: '/notifications', title: 'Notifications',  icon:'ui-1_bell-53', class: '' },
 
-    { path: '/user-profile', title: 'User Profile',  icon:'users_single-02', class: '' },
-    { path: '/table-list', title: 'Table List',  icon:'design_bullet-list-67', class: '' },
-    { path: '/typography', title: 'Typography',  icon:'text_caps-small', class: '' },
+    { path: '/user-profile', title: 'Admin Profile',  icon:'users_single-02', class: '' }
+   // { path: '/table-list', title: 'Table List',  icon:'design_bullet-list-67', class: '' },
+    //{ path: '/typography', title: 'Typography',  icon:'text_caps-small', class: '' },
     // { path: '/upgrade', title: 'Upgrade to PRO',  icon:'objects_spaceship', class: 'active active-pro' }
 
 ];

@@ -10,3 +10,6 @@ router.get('/read',(req,res,next) => {
       res.status(200).json({msg:entry});
   });
 });
+
+
+module.exports = router;
